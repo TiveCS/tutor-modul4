@@ -6,12 +6,13 @@ using System.Threading.Tasks;
 
 namespace tutor_modul4
 {
-	internal class Program
+	internal class HaloGeneric<T>
 	{
-		static void Main(string[] args)
+
+		public void SapaUser(T user)
 		{
-			HaloGeneric<String> halo = new HaloGeneric<String>();
-			halo.SapaUser("Bayu");
+			Console.WriteLine("Halo user " + user);
 		}
+
 	}
 }
