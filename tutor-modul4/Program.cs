@@ -10,7 +10,8 @@ namespace tutor_modul4
 	{
 		static void Main(string[] args)
 		{
-
+			DataGeneric<String> data = new DataGeneric<string>("1302204090");
+			data.PrintInfo();
 		}
 	}
 }
